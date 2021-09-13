@@ -5,7 +5,7 @@ import {FacebookShareButton,TwitterShareButton,LinkedinShareButton,EmailShareBut
 
 function DisplayBlog({title,image,author,category,description,date}) {
 
-const shareURL = "https://www.youtube.com"
+const shareURL = "https://react-blog-by-aman.herokuapp.com/"
     return (
     <Container>
     <Title>{title}</Title>
