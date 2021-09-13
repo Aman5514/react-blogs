@@ -22,14 +22,13 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: hsl(250,50%,85%);
-padding: 0 15px;
+padding: 0 10px;
 
 `;
 
 const SearchBox = styled.form`
 border:none;
 width: 100%;
-padding: 0 10px;
 height: 40px;
 `;
 
