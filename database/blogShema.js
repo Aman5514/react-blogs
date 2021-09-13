@@ -4,6 +4,7 @@ const blogShema = new mongoose.Schema({
   title: {
     type: String,
     required: true,
+    trim:true
   },
   image: {
     data: {
@@ -14,10 +15,12 @@ const blogShema = new mongoose.Schema({
   author: {
     type: String,
     required: true,
+    trim: true
   },
   category: {
     type: String,
     required: true,
+    trim: true
   },
   mdesc: {
     type: String,
@@ -25,6 +28,7 @@ const blogShema = new mongoose.Schema({
   desc: {
     type: String,
     required: true,
+    trim: true,
     unique: true,
   }
 });
