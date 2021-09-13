@@ -120,7 +120,7 @@ export default NewBlog;
 
 const FormContainer = styled.div`
 width: 100%;
-height: calc(100vh - 65px);
+margin-top: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
