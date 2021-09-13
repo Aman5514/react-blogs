@@ -22,17 +22,12 @@ return (
 export default Header
 
 const HeaderContainer = styled.div`
-position: fixed;
-top:0;
-right: 0;
-left:0;
 height:65px;
 padding: 0 10px 0 20px;
 background-color: hsl(250,50%,14%);
 display: flex;
 justify-content: space-between;
 align-items: center;
-z-index: 10;
 `;
     
 const Title = styled(NavLink)`
