@@ -21,7 +21,7 @@ const history = useHistory()
 const PostData = async(event)=>
 {
     event.preventDefault();
-  if(title && image && auther && category && mdesc && description){
+  if(title && image && auther && category && description){
     history.push('/')
     const res = await fetch('/upload-blogs',{
         method:"POST",
