@@ -22,8 +22,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: hsl(250,50%,85%);
-padding: 65px 10px;
-
+padding: 0 10px;
+position: fixed;
+top:65;
+left:0;
+right:0;
 `;
 
 const SearchBox = styled.form`
