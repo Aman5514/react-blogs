@@ -22,7 +22,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: hsl(250,50%,85%);
-padding: 0 10px;
+padding: 65px 10px;
 
 `;
 
